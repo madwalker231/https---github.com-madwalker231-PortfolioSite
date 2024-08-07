@@ -1,0 +1,354 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.name-container {
+    padding-top: 100px;
+    padding-left: 225px;
+    display:inline-block;
+}
+
+.title-container {
+    font-size: 20px;
+}
+
+h1 {
+    margin: 0;
+}
+
+.insperation-quote {
+    padding-left: 20%;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.insperation-quote-two {
+    padding-left: 10%;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    width: 1500px;
+    text-align: center;
+}
+
+.home-button {
+    padding-top: 100px;
+    padding-left: 600px;
+    display: inline-block;
+}
+
+.about-button {
+    padding-top: 100px;
+    padding-left: 50px;
+    display: inline-block;
+}
+
+.skill-button {
+    padding-top: 100px;
+    padding-left: 50px;
+    display: inline-block;
+}
+
+.resume-button {
+    padding-top: 100px;
+    padding-left: 50px;
+    display: inline-block;
+}
+
+.menu-button {
+    padding: 10px 10px;
+    font-size: 24px;
+    background-color: rgb(155, 181, 194);
+    transition-duration: 0.4s;    
+}
+
+.menu-button:hover {
+    background-color: #555;
+    transform: translateY(-5px);
+}
+
+.project-container-one {
+    display:flex;
+    gap: 50px;
+    padding-left: 200px;
+    padding-top: 100px;
+}
+
+.project-container-two {
+    display:flex;
+    gap: 50px;
+    padding-left: 200px;
+    padding-top: 20px;
+}
+
+.project-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    width: 300px;
+    height: 300px;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.3s; 
+}
+
+.project-button img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.project-button:hover {
+    background-color: #555;
+    transform: translateY(-5px);
+}
+
+.about-title-container {
+    padding-left: 225px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.about-me-container {
+    font-size: 20px;
+}
+.about-container {
+    font-size: 20px;
+}
+
+.about-container-one {
+    margin: 0px;
+    display: inline-block;
+    padding-left: 100px;
+    padding-bottom: 300px;
+    width: 900px;
+    height: auto;
+    color: black;
+    vertical-align: middle;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.div-spacing-one {
+    max-height: 400px;
+}
+
+.about-container-two {
+    margin: 0px;
+    display: inline-block;
+    padding-left: 225px;
+    padding-bottom: 450px;
+    width: 1000px;
+    height: auto;
+    color: black;
+    vertical-align: middle;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.about-container-three {
+    margin: 0px;
+    display: inline-block;
+    padding-left: 100px;
+    padding-bottom: 300px;
+    width: 1000px;
+    height: auto;
+    color: black;
+    vertical-align: middle;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.about-container-four {
+    margin: 0px;
+    display: inline-block;
+    padding-left: 225px;
+    padding-bottom: 350px;
+    width: 1000px;
+    height: auto;
+    color: black;
+    vertical-align: middle;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.about-img-one {
+    display: inline-block;
+    padding-top: 0px;
+    padding-left: 225px;
+    height: 300px;
+    width: auto;
+}
+
+.about-img-two {
+    display: inline-block;
+    padding-top: 0px;
+    padding-left: 200px;
+    height: 400px;
+    width: auto;
+}
+
+.about-img-three {
+    display: inline-block;
+    padding-top: 0px;
+    padding-left: 225px;
+    height: 400px;
+    width: auto;
+}
+
+.about-img-four {
+    display: inline-block;
+    padding-top: 0px;
+    padding-left: 200px;
+    height: 400px;
+    width: auto;
+}
+
+.skill-title {
+    padding-left: 225px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.skill-font {
+    font-size: 20px;
+}
+
+.language-title {
+    align-items: center;
+    padding-left: 40%;
+}
+
+.skill-container-one {
+    display: flex;
+    padding-left: 30%;
+    padding-top: 100px;
+    gap: 50px;
+}
+
+.skill-container-two {
+    display: flex;
+    padding-left: 25%;
+    padding-top: 50px;
+    gap: 50px;
+    padding-bottom: 100px;
+}
+
+.skill-container-three {
+    display: flex;
+    padding-left: 16%;
+    padding-top: 100px;
+    gap: 50px;
+    padding-bottom: 100px;
+}
+
+.skill-container-four {
+    display: flex;
+    padding-left: 15%;
+    padding-top: 50px;
+    gap: 50px;
+    padding-bottom: 100px;
+}
+
+
+.skill-img {
+    width: 150px;
+    height: 150px;
+}
+
+.dart-img {
+    width: 200px;
+    height: 150px;
+}
+
+.firebase-img {
+    width: 200px;
+    height: 200px;
+}
+
+.sql-img {
+    width: 200px;
+    height: 150px;
+}
+
+
+
+/* Media Queries */
+
+@media (max-width: 768px) {
+    .name-container,
+    .title-container {
+        padding-left: 50px;
+    }
+    .home-button,
+    .about-button,
+    .contact-button,
+    .resume-button {
+        padding-left: 20px;
+        padding-top: 50px;
+    }
+    .project-container-one,
+    .project-container-two,
+    .contact-container-one,
+    .contact-container-two {
+        flex-direction: column;
+        padding-left: 50px;
+    }
+    .project-button {
+        width: 100%;
+        height: auto;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) {
+    .name-container, 
+    .title-container {
+        padding-left: 20px;
+    }
+    .home-button, 
+    .about-button, 
+    .contact-button, 
+    .resume-button {
+        padding-left: 10px;
+        padding-top: 30px;
+    }
+    .project-container-one, 
+    .project-container-two, 
+    .contact-container-one, 
+    .contact-container-two {
+        flex-direction: column;
+        padding-left: 20px;
+    }
+    .project-button {
+        width: 100%;
+        height: auto;
+    }
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 375px) {
+    .name-container, 
+    .title-container {
+        padding-left: 10px;
+    }
+    .home-button, 
+    .about-button, 
+    .contact-button, 
+    .resume-button {
+        padding-left: 5px;
+        padding-top: 20px;
+    }
+    .project-container-one, 
+    .project-container-two, 
+    .contact-container-one, 
+    .contact-container-two {
+        flex-direction: column;
+        padding-left: 10px;
+    }
+    .project-button {
+        width: 100%;
+        height: auto;
+    }
+}
